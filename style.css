@@ -1,0 +1,163 @@
+
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    color: #4e4444
+}
+
+p {
+    margin: 0
+}
+
+
+BODY,HTML {
+    min-height: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+
+BODY {
+    background-color: #fff;
+    color: #666;
+    font: 13px Arial,sans-serif;
+    line-height: 26px
+}
+
+
+
+a {
+    color: #666
+}
+
+a.active,a:hover {
+    color: #000
+}
+
+
+.title {
+    color: #000
+}
+
+.links a {
+    line-height: 24px;
+    padding-right: 15px
+}
+
+.links a:last-of-type {
+    line-height: 24px;
+    padding-right: 0
+}
+
+.entry .links a {
+    display: block
+}
+
+.container {
+    max-width: 100%;
+    max-width: 1080px;
+    margin: 0 auto
+}
+
+.container .container {
+    padding: 0
+}
+
+.main-header {
+    padding: 40px 0px 70px;
+    position: relative;
+    z-index: 55;
+    text-transform: uppercase;
+    box-sizing: border-box
+}
+
+.main-header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 55
+}
+
+.main-header .logo {
+    float: left;
+}
+.main-header .logo img {
+    margin-left: -100px; 
+    margin-top: -16px;
+}
+
+.main-header .logo span {
+    font-size: 35px
+}
+
+.main-header nav {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right
+}
+
+.main-header nav a {
+    margin-left: 25px
+}
+
+.main-header nav>a:first-child {
+    margin-left: 0
+}
+
+
+.slider-box {
+    width: 1000px;
+    height: auto;
+    margin: 50px auto 0;
+    margin-top: 100px;
+    overflow: hidden;
+
+}
+
+.slider-box ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-box li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+
+
+.slider-box img {
+    width: 100%;
+}
+
+@keyframes  slide {
+    0% { margin-left:0; }
+    20% { margin-left:0;  }
+
+    25% { margin-left:-100%;  }
+    45% { margin-left:-100%;  }
+
+    50% { margin-left:-200%;  }
+    70% { margin-left:-200%;  }
+
+    75% { margin-left:-300%;  }
+    100% { margin-left:-300%;  }
+}
+
+@media (max-width: 991px) {
+    body {
+        padding: 30px;
+    }
+    .slider-box {
+        width: 100%;
+    }
+
+}

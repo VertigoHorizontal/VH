@@ -1,0 +1,120 @@
+:root{
+    --color-dark:#4C6983;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    color: #4e4444
+}
+
+p {
+    margin: 0
+}
+
+body{
+   height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-dark);
+    font: 13px Arial,sans-serif;
+
+}
+
+
+.convocatoria{
+    margin-top: 100px;
+    max-width: 100%;
+    height: auto;
+
+  
+}
+
+
+
+a {
+    color: #000
+}
+
+a.active,a:hover {
+    color: #666
+}
+
+
+.title {
+    color: #000
+}
+
+.links a {
+    line-height: 24px;
+    padding-right: 15px
+}
+
+.links a:last-of-type {
+    line-height: 24px;
+    padding-right: 0
+}
+
+.entry .links a {
+    display: block
+}
+
+.container {
+    max-width: 100%;
+    max-width: 1080px;
+    margin: 0 auto
+}
+
+.container .container {
+    padding: 0
+}
+
+.main-header {
+    padding: 40px 0px 70px;
+    position: relative;
+    z-index: 55;
+    text-transform: uppercase;
+    box-sizing: border-box
+}
+
+.main-header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 55
+}
+
+.main-header .logo {
+    float: left;
+}
+.main-header .logo img {
+    margin-left: 50px; 
+    margin-top: -16px;
+}
+
+.main-header .logo span {
+    font-size: 35px
+}
+
+.main-header nav {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right
+}
+
+.main-header nav a {
+    margin-left: 25px
+}
+
+.main-header nav>a:first-child {
+    margin-left: 0
+}
+
+
+
